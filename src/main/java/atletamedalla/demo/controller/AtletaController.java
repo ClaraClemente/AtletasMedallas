@@ -26,6 +26,7 @@ public class AtletaController {
     }
 
 // devuelve todos los atletas
+    //Pues si vaya misterio
     @GetMapping
     public List<Atleta> findAll() {
         return atletaRepository.findAll();
