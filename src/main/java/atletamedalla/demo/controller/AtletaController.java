@@ -25,7 +25,7 @@ public class AtletaController {
                 atletaRepository.save(atleta);
     }
 
-
+// devuelve todos los atletas
     @GetMapping
     public List<Atleta> findAll() {
         return atletaRepository.findAll();
